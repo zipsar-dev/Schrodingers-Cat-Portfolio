@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Baskerville";
+  src: url("/Fonts/BaskervilleBT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/Fonts/EBGaramond-Regular.ttf") format("truetype");
+}
+
+@theme {
+  --font-heading: "Baskerville", serif;
+  --font-body: "EB Garamond", serif;
+}
