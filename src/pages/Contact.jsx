@@ -94,9 +94,9 @@ export default function Contact() {
             <p className="mt-6 max-w-3xl leading-relaxed text-text-muted">{intro}</p>
           </Reveal>
 
-          <div className="mt-12 grid gap-10 lg:grid-cols-2">
+          <div className="mt-12 grid gap-10 lg:grid-cols-2 [grid-template-columns:minmax(0,1fr)]">
             {/* Form */}
-            <form onSubmit={handleSubmit} noValidate className="rounded-2xl border border-border bg-white p-6 shadow-sm md:p-8">
+            <form onSubmit={handleSubmit} noValidate className="min-w-0 rounded-2xl border border-border bg-white p-6 shadow-sm md:p-8">
               <div className="space-y-5">
                 <div>
                   <label htmlFor="contact-username" className="mb-1.5 block text-sm font-semibold text-text">
@@ -195,12 +195,12 @@ export default function Contact() {
             </form>
 
             {/* Image / map placeholder */}
-            <Reveal delay={0.1} className="w-full lg:h-full">
+            <Reveal delay={0.1} className="min-w-0 w-full lg:h-full">
               <ImagePlaceholder
                 src={contact.image}
                 ratio="4/3"
                 alt={imageAlt}
-                className="h-full min-h-[300px] w-full lg:min-h-[420px]"
+                className="h-full min-h-[200px] w-full sm:min-h-[300px] lg:min-h-[420px]"
               />
             </Reveal>
           </div>

@@ -35,7 +35,7 @@ function NotFound() {
 
 export default function App() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col overflow-x-hidden" style={{ overflowClipMargin: 0 }}>
       <ScrollToTop />
       <Navbar />
       <div className="flex-1">
