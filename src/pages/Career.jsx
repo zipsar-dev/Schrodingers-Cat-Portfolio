@@ -30,18 +30,20 @@ export default function Career() {
 
       {/* ---------------- CTA banner ---------------- */}
       <section className="relative overflow-hidden bg-primary">
-        {orbitDots}
-        <div className="relative mx-auto w-full max-w-[1280px] px-6 py-16 text-center md:px-10 md:py-20">
+        <div className="pointer-events-none absolute inset-0">{orbitDots}</div>
+        <div className="relative z-10 mx-auto w-full max-w-[1280px] px-6 py-16 text-center md:px-10 md:py-20">
           <Reveal>
             <h2 className="text-3xl font-bold text-white sm:text-4xl">{cta.heading}</h2>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="mx-auto mt-4 max-w-2xl leading-relaxed text-white/85">{cta.text}</p>
           </Reveal>
-          <Reveal delay={0.2} className="mt-8">
+          <Reveal delay={0.2} className="relative z-20 mt-8">
             <Button
               to={cta.buttonTo}
-              className="bg-white text-primary hover:bg-white/90 focus-visible:outline-white"
+              variant="primary"
+              className="hover:bg-primary/90 focus-visible:outline-white"
+              // className="bg-white text-primary shadow-lg hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-xl focus-visible:outline-white"
             >
               {cta.buttonLabel}
               <ArrowRight size={16} aria-hidden="true" />

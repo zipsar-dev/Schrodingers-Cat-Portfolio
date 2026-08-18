@@ -14,7 +14,7 @@ export default function Reveal({
   className = "",
   delay = 0,
   y = 28,
-  duration = 0.8,
+  duration = 0.5,
   ...rest
 }) {
   const ref = useRef(null);
@@ -31,8 +31,8 @@ export default function Reveal({
         y: 0,
         duration,
         delay,
-        ease: "power3.out",
-        scrollTrigger: { trigger: el, start: "top 88%", once: true },
+        ease: "power2.out",
+        scrollTrigger: { trigger: el, start: "top 90%", once: true },
       }
     );
 

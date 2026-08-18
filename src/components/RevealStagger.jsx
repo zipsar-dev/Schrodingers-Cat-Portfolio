@@ -14,8 +14,8 @@ export default function RevealStagger({
   className = "",
   delay = 0,
   y = 24,
-  stagger = 0.1,
-  duration = 0.7,
+  stagger = 0.07,
+  duration = 0.45,
   ...rest
 }) {
   const ref = useRef(null);
@@ -39,8 +39,8 @@ export default function RevealStagger({
         duration,
         delay,
         stagger,
-        ease: "power3.out",
-        scrollTrigger: { trigger: el, start: "top 86%", once: true },
+        ease: "power2.out",
+        scrollTrigger: { trigger: el, start: "top 88%", once: true },
       }
     );
 

@@ -66,10 +66,7 @@ export const home = {
     image: "/images/vision.jpg",
     imageAlt: "A telescope pointed toward a night sky full of stars",
     text: [
-      "A world where every young person's curiosity is treated as a serious instrument of social change.",
-      "We envision societies that make decisions on evidence, empathy, and open debate — not on assumption or inertia.",
-      "A generation of youth who can hold a thought in superposition: questioning what is, imagining what could be, and committing to what should be.",
-      "Research led by young people, for everyone.",
+      "Schrödinger's Cat Think Tank envisions a world where young minds are empowered to tackle complex societal issues through understanding and shaping society.",
     ],
   },
   mission: {
@@ -79,10 +76,7 @@ export const home = {
     image: "/images/mission.jpg",
     imageAlt: "A team stacking their hands together before starting a project",
     text: [
-      "To identify the most pressing societal issues of our time and hand them to young minds with the tools to investigate.",
-      "To conduct in-depth, ethical, and youth-led research that produces publishable findings.",
-      "To open every finding to public debate through publications, dialogues, and our clubs.",
-      "To build a national network of student researchers, thinkers, and doers.",
+      "Our mission is to empower young people by engaging them in research, and innovation to foster a more just and equitable society.",
     ],
   },
   ensure: {
@@ -91,19 +85,19 @@ export const home = {
     icon: "shield-check",
     items: [
       {
-        title: "Curiosity Is Taken Seriously",
+        title: "Amplify Young Voices",
         description:
-          "Every question a young researcher brings is treated with the same rigour as a funded study.",
+          "We amplify the voices of young people, ensuring their perspectives shape solutions to societal challenges.",
       },
       {
-        title: "Research Stays Ethical",
+        title: "Foster Creativity & Innovation",
         description:
-          "Informed consent, honest data, and transparent methods are non-negotiable in every project.",
+          "We provide resources and mentorship to foster creativity and support the development of groundbreaking ideas.",
       },
       {
-        title: "Findings Reach the Public",
+        title: "Connect with Global Networks",
         description:
-          "Nothing we learn stays in a drawer — it becomes a published piece, a debate, or an action.",
+          "We connect young innovators with global networks and opportunities to scale their impact.",
       },
     ],
   },
@@ -117,35 +111,35 @@ export const home = {
         icon: "search",
         title: "Identify Societal Issues",
         description:
-          "We listen to communities and scan the public sphere for the problems nobody is asking about yet.",
+          "Pinpoint pressing challenges in our communities and society.",
       },
       {
         number: "02",
         icon: "users",
         title: "Involve Young Minds",
         description:
-          "Students and early-career researchers join the project as investigators, not spectators.",
+          "Engage school and college students in the research process.",
       },
       {
         number: "03",
         icon: "microscope",
         title: "Conduct In-Depth Research",
         description:
-          "Structured methods, mentorship, and peer review turn questions into credible evidence.",
+          "Equip students with research skills to understand, analyze and solve complex issues.",
       },
       {
         number: "04",
         icon: "book-open",
         title: "Publish Findings",
         description:
-          "Every study is written up, edited, and published in accessible formats for a wide audience.",
+          "Ensure research findings are accessible, relevant and thought-provoking.",
       },
       {
         number: "05",
         icon: "message-circle",
         title: "Engage in Debates",
         description:
-          "Published work comes alive in club debates, public dialogues, and policy conversations.",
+          "Establish platforms like our debate club to refine ideas and develop communication skills through rigorous discussion.",
       },
     ],
   },
@@ -154,8 +148,7 @@ export const home = {
     title: "Our Reach",
     icon: "globe",
     text: [
-      "From school classrooms to university campuses, our programmes and clubs now operate across 12 cities, engaging more than 4,000 young researchers each year.",
-      "Our publications have been read in 30+ countries, and our debates have been hosted in partnership with universities, libraries, and civic bodies.",
+      "We actively engage with students across schools and colleges, building partnerships with educational institutions and communities across India.",
     ],
     imageAlt: "Illustration of a world map dotted with research hubs",
   },
@@ -164,8 +157,7 @@ export const home = {
     title: "Our Impact",
     icon: "sparkles",
     text: [
-      "Over 150 youth-led research projects completed, with findings cited in local policy discussions and community campaigns.",
-      "Alumni of our programmes now study and work in public policy, data science, journalism, and academia — carrying the questioning habit with them.",
+      "By empowering young researchers and publishing actionable studies, we are shaping a generation of leaders who are well-equipped to make a positive difference.",
     ],
     imageAlt: "Illustration of upward growth bars with a rising sun",
   },
@@ -206,20 +198,20 @@ export const about = {
     title: "Why This Name?",
     icon: "cat",
     text:
-      "In Schrödinger's famous thought experiment, a cat inside a sealed box is both alive and dead until someone opens the box and observes it. For us, that box is society: every issue we study contains multiple simultaneous realities — what is, what could be, and what people believe. Research is the act of opening the box. Our name is a promise that we will always be willing to look, to question, and to let evidence collapse our assumptions.",
+      "Named after the famous thought experiment, \"Schrödinger's Cat,\" our organization represents curiosity, exploration, and the potential for change. Unboxing the possibilities, we encourage students to question, explore multiple perspectives, and uncover truths, much like the paradox itself.",
   },
   story: {
     eyebrow: "About · 02",
     title: "Our Story",
     icon: "book-open",
     text:
-      "We began in 2021 as a small reading circle of six students who were frustrated that their questions about the world had no place to go. A year later we had published our first study. By 2023 we were a registered think-tank with clubs in four cities. Today we are a network of young researchers, mentors, and partners who believe the most important discoveries are made not in laboratories alone, but in the questions a society refuses to ask.",
+      "Schrödinger's Cat Think Tank was founded with the belief that youth involvement in research and policy analysis is essential for societal progress. We began by inviting students to tackle real issues, and our journey has since expanded to encompass debate clubs, collaborations, and publications that amplify their voices and address real-world issues.",
     image: "/images/story.jpg",
     imageAlt: "Stacked books and journals on a library table",
   },
   team: {
     eyebrow: "About · 03",
-    title: "Who are we..? / Meet our Team",
+    title: "Who are we..?",
     icon: "users",
     members: [
       { name: "Aarav Kapoor", role: "Founder & Executive Director", image: "/images/p1.jpg" },
@@ -310,30 +302,30 @@ export const research = {
     icon: "newspaper",
     posts: [
       {
-        title: "The Box Is Open: Why Youth Research Matters Now",
+        title: "Blog name",
         excerpt:
-          "When a generation inherits complex problems, the cheapest solution is to start asking better questions earlier. Here is why we think school is the right place for it.",
+          "Lorem ipsum nulla ac nisl urna phasellus mauris lacus lorem non scelerisque sit vulputate et quam nullam bibendum lectus blandit.",
         image: "/images/blog1.jpg",
         imageAlt: "Researchers planning a study around a table covered with documents",
       },
       {
-        title: "Water, Data, and Trust: Lessons from a City Survey",
+        title: "Blog name",
         excerpt:
-          "Four hundred households, one season of fieldwork, and a surprising finding about who trusts the water they drink. Our researchers break down the numbers.",
+          "Lorem ipsum nulla ac nisl urna phasellus mauris lacus lorem non scelerisque sit vulputate et quam nullam bibendum lectus blandit.",
         image: "/images/blog2.jpg",
         imageAlt: "City skyline at dusk where the water survey was carried out",
       },
       {
-        title: "How to Disagree Without Being Disagreeable",
+        title: "Blog name",
         excerpt:
-          "A field guide from our Debate Club on argument structure, evidence standards, and the lost art of changing your mind in public.",
+          "Lorem ipsum nulla ac nisl urna phasellus mauris lacus lorem non scelerisque sit vulputate et quam nullam bibendum lectus blandit.",
         image: "/images/blog3.jpg",
         imageAlt: "Audience at a public debate listening to a speaker on stage",
       },
       {
-        title: "Publishing at Seventeen: A Researcher's Diary",
+        title: "Blog name",
         excerpt:
-          "From a first research question to a byline in a public journal — one of our youngest authors reflects on the journey, and the revisions.",
+          "Lorem ipsum nulla ac nisl urna phasellus mauris lacus lorem non scelerisque sit vulputate et quam nullam bibendum lectus blandit.",
         image: "/images/blog4.jpg",
         imageAlt: "Hands writing notes with a pen on a journal page",
       },
@@ -469,25 +461,25 @@ export const club = {
       name: "Debate Club",
       icon: "message-circle",
       description:
-        "Weekly motions, evidence clinics, and public debate nights. Members learn to construct arguments, weigh sources, and change their minds with grace — the core skill of a think-tank.",
+        "Our Debate Club is a platform for students to refine their ideas, challenge each other's viewpoints, and engage in healthy discourse. It's where research findings come to life through spirited discussion.",
     },
     {
       name: "Art Club",
       icon: "palette",
       description:
-        "Research doesn't have to live only in paragraphs. Our art club turns findings into zines, posters, comics, and data illustrations that travel further than any abstract.",
+        "This club fosters creative expression, allowing students to explore societal themes through visual art, literature, and performance, merging creativity with critical perspectives.",
     },
     {
       name: "Social Club",
       icon: "heart-handshake",
       description:
-        "The connective tissue of the community: field trips, volunteer drives, and peer support circles that keep young researchers healthy, connected, and grounded.",
+        "The Social Club promotes community involvement, enabling students to work on projects that directly benefit their surroundings and develop empathy, leadership, and teamwork skills.",
     },
     {
       name: "Travel Club",
       icon: "plane",
       description:
-        "Field research needs feet on the ground. The travel club organizes study visits, community immersion trips, and cross-city exchanges that put research in real places.",
+        "Our Travel Club organizes educational trips, providing students with hands-on learning experiences and insights into different cultures and societal structures.",
     },
   ],
 };
@@ -512,10 +504,10 @@ export const career = {
   },
   lifeAtOrg: {
     eyebrow: "Career · 01",
-    title: `Life at Schrödinger's Cat Think Tank`,
+    title: `Life at Schrödinger's Cat`,
     icon: "sparkles",
     text:
-      "A typical week involves a methods workshop on Tuesday, a manuscript edit on Wednesday, and a debate on Friday night. We keep teams small, trust high, and meetings short. Every member of staff mentors at least one young researcher — because we think the best way to stay sharp is to teach curiosity.",
+      "Working here means being part of a dynamic, inspiring environment where innovation and critical thinking thrive. Our team is collaborative, dedicated, and committed to impactful work.",
     image: "/images/life.jpg",
     imageAlt: "A bright office with plants and people collaborating at desks",
   },

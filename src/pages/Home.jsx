@@ -92,10 +92,10 @@ function HeroSection({ hero }) {
       {
         opacity: 1,
         y: 0,
-        duration: 0.9,
-        stagger: 0.14,
-        ease: "power3.out",
-        delay: 0.1,
+        duration: 0.6,
+        stagger: 0.1,
+        ease: "power2.out",
+        delay: 0.05,
       }
     );
     return () => tween.kill();
