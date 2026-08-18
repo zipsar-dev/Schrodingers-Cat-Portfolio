@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — from the client's design board (teal #098484 accents,
+     light-grey canvas, white cards) */
+  --color-primary: #098484;
+  --color-primary-dark: #067171;
+  --color-primary-light: #2fa3a3;
+  --color-primary-soft: #e4f2f2;
+
+  --color-bg: #ffffff;
+  --color-surface: #eef3f3;
+  --color-surface-muted: #f7f9f9;
+  --color-placeholder: #c9d2d2;
+  --color-text: #1f2937;
+  --color-text-muted: #5c6f70;
+  --color-border: #dde6e6;
+
+  /* Typography */
+  --font-heading: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Layout */
+  --spacing-page: 1280px;
+
+  /* Motion */
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* Consistent focus states for interactive elements */
+:focus-visible {
+  outline: 2px solid var(--color-primary-light);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+/* Small-caps eyebrow / section label */
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------ */
+/* Signature design elements (from the client's design board)          */
+/* ------------------------------------------------------------------ */
+
+/*
+ * bracket-frame — the teal "open box" border used around the hero and key
+ * content blocks. Top + left edges run the full width/height; the right edge
+ * stops at 75% height and the bottom edge at 62% width, echoing the cat-in-a-
+ * box silhouette of the brand (the "border ending with cat" motif).
+ */
+.bracket-frame {
+  position: relative;
+  border-top: 2px solid var(--color-primary);
+  border-left: 2px solid var(--color-primary);
+  padding: 2.25rem;
+}
+
+.bracket-frame::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  height: 75%;
+  width: 2px;
+  background-color: var(--color-primary);
+}
+
+.bracket-frame::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  height: 2px;
+  width: 62%;
+  background-color: var(--color-primary);
+}
+
+/* orbit-dot — small filled circle from the logo's orbit ring */
+.orbit-dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: var(--color-primary);
+}
+
+.orbit-dot-ring {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  border: 2px solid var(--color-primary);
+  background-color: transparent;
+}
